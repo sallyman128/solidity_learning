@@ -29,9 +29,31 @@
 				"name": "getAllTweets",
 				"outputs": [
 					{
-						"internalType": "string[]",
+						"components": [
+							{
+								"internalType": "address",
+								"name": "author",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "content",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "likes",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Twitter.Tweet[]",
 						"name": "",
-						"type": "string[]"
+						"type": "tuple[]"
 					}
 				],
 				"stateMutability": "view",
@@ -53,9 +75,31 @@
 				"name": "getTweet",
 				"outputs": [
 					{
-						"internalType": "string",
+						"components": [
+							{
+								"internalType": "address",
+								"name": "author",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "content",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "likes",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Twitter.Tweet",
 						"name": "",
-						"type": "string"
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -77,9 +121,24 @@
 				"name": "tweets",
 				"outputs": [
 					{
+						"internalType": "address",
+						"name": "author",
+						"type": "address"
+					},
+					{
 						"internalType": "string",
-						"name": "",
+						"name": "content",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "likes",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -114,11 +173,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0x9e297e84349cc0f2351a837b750077ee8d4967eb81e8a2e7604ae8708d5c0867",
+			"keccak256": "0xc071e33d2a8bb0e6d8316270b318afaa100f5c951053745d9fb297e2ec8b3730",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5581b052c681e03f2b7b2f2c87cf5db1af8ced1908d478611bfd302dc4313d68",
-				"dweb:/ipfs/QmfZ95bjJLTSVGHn8tbAmb7DioFpkVAKFZeZQGpAqf4nr3"
+				"bzz-raw://2b213d6db830484a4d52f13294703ae6474d795af10d70817574cbcd1bd082e8",
+				"dweb:/ipfs/QmSaFhBex1MEHNbCXr2zTSH1A5AApp7eimPEzVyWxwSzks"
 			]
 		}
 	},
