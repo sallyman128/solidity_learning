@@ -75,70 +75,9 @@
 				"name": "getTweet",
 				"outputs": [
 					{
-						"components": [
-							{
-								"internalType": "address",
-								"name": "author",
-								"type": "address"
-							},
-							{
-								"internalType": "string",
-								"name": "content",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "timestamp",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "likes",
-								"type": "uint256"
-							}
-						],
-						"internalType": "struct Twitter.Tweet",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "tweets",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "author",
-						"type": "address"
-					},
-					{
 						"internalType": "string",
-						"name": "content",
+						"name": "",
 						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "timestamp",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "likes",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -173,11 +112,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0xc071e33d2a8bb0e6d8316270b318afaa100f5c951053745d9fb297e2ec8b3730",
+			"keccak256": "0x3518ae1564c7b7cea158aa64a45623003c3aa2e7d22799a09c167c106453eacb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2b213d6db830484a4d52f13294703ae6474d795af10d70817574cbcd1bd082e8",
-				"dweb:/ipfs/QmSaFhBex1MEHNbCXr2zTSH1A5AApp7eimPEzVyWxwSzks"
+				"bzz-raw://a910c9706100c6d1fbd9ac7033293de0e715ec767b4d37d9b3690d04a481a918",
+				"dweb:/ipfs/QmTS6bJ9RS7DkV8bxjRx2aZ1WiprBXJ3G8uAQsNfnEgzNn"
 			]
 		}
 	},
