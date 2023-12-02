@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Hello-World.sol": {
-			"keccak256": "0x4a04a90d121a4aadab5a67b5f35196628a2fe16d58e498f39673d1dff66447da",
+			"keccak256": "0x4dfbe750a636ae09b39a60a6bd698ca5d49ed457e89f9b7d5fded3d6f1f9ed75",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d10f4394d835ca930b0b8dca8c4d6238da3a6a3932090a802084d6cef60fa4c4",
-				"dweb:/ipfs/QmVvoaboboZYkM58CihDz8fsyeM1FqBrZarYVF954ZC8cy"
+				"bzz-raw://1126b4318c7896e636bfb6b992837a7368042525d258f092253f1efb7eb39427",
+				"dweb:/ipfs/QmSnFYsXzenMs3f9zX8v41dpYLdHnAwDvBnLatn53ombhc"
 			]
 		}
 	},
