@@ -19,13 +19,7 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"name": "getAllTweets",
 				"outputs": [
 					{
@@ -61,11 +55,6 @@
 			},
 			{
 				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					},
 					{
 						"internalType": "uint256",
 						"name": "_i",
@@ -112,11 +101,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0x3518ae1564c7b7cea158aa64a45623003c3aa2e7d22799a09c167c106453eacb",
+			"keccak256": "0xf43a9305501565814b9da047cd98fa6977c1f27109615b299c1ebe3ca4f5b0b5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a910c9706100c6d1fbd9ac7033293de0e715ec767b4d37d9b3690d04a481a918",
-				"dweb:/ipfs/QmTS6bJ9RS7DkV8bxjRx2aZ1WiprBXJ3G8uAQsNfnEgzNn"
+				"bzz-raw://a2bd5ea240f852f046dcdd5bcc289b3fd14ae94a263c48bdab89c10ff62bcce7",
+				"dweb:/ipfs/QmcyE4QcPVVSBUeFhr8AqvNXJzHK3TAy6FAumL7TnXd3wo"
 			]
 		}
 	},
